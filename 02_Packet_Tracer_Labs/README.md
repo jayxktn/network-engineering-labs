@@ -1,28 +1,28 @@
 # Packet Tracer Labs
 
-## 📌 Purpose
+##  Purpose
 
 This section contains all practical networking labs using Cisco Packet Tracer.
 
-## 🧠 What I Learn Here
+##  What I Learn Here
 
 * Network setup and configuration
 * Device connectivity
 * Basic troubleshooting
 * Real-world simulation of networks
 
-## 🛠 Tools Used
+##  Tools Used
 
 * Cisco Packet Tracer
 
-## 📂 What You Will Find
+##  What You Will Find
 
 * Basic network labs
 * Routing labs
 * Switching labs
 * Security labs (later)
 
-## 🚀 Progress Level
+## Progress Level
 
 Beginner → Intermediate
 

@@ -1,17 +1,17 @@
 # Network Engineering Labs
 
-## 📌 Overview
+##  Overview
 
 This repository documents my practical journey in network engineering, focusing on real-world configurations, troubleshooting, and core networking concepts.
 
-## 🎯 Objectives
+##  Objectives
 
 * Build strong networking fundamentals
 * Practice real configurations using Packet Tracer
 * Develop troubleshooting skills
 * Prepare for CCNA-level knowledge
 
-## 🧠 Skills Covered
+##  Skills Covered
 
 * IP Addressing & Subnetting
 * VLANs and Trunking
@@ -19,11 +19,11 @@ This repository documents my practical journey in network engineering, focusing 
 * DHCP & NAT
 * Access Control Lists (ACLs)
 
-## 🛠 Tools
+## Tools
 
 * Cisco Packet Tracer
 
-## 📂 Structure
+##  Structure
 
 * Basics
 * Packet Tracer Labs
