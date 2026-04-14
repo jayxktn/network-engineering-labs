@@ -54,4 +54,7 @@ R2
 
 OSPF allows routers to automatically exchange routing infomation
 
-R1 and R2 form a neighbor relationship over the 10.0.0.0 
+R1 and R2 form a neighbor relationship over the 10.0.0.0 network.They then share infomation about their connected networks.
+
+Each router builds a routing  table dynamically,allowing packets to be forwarded without manually configured static routes
+
