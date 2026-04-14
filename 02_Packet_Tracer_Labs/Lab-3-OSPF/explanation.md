@@ -56,5 +56,40 @@ OSPF allows routers to automatically exchange routing infomation
 
 R1 and R2 form a neighbor relationship over the 10.0.0.0 network.They then share infomation about their connected networks.
 
-Each router builds a routing  table dynamically,allowing packets to be forwarded without manually configured static routes
+Each router builds a routing  table dynamically,allowing packets to be forwarded without manually configured static routes.
 
+## Result
+
+Successful communication between PCs on different networks using OSPF.
+
+Routes were learned dynamically,as shown by "O" entries in the routing table.
+
+## Failure Scenario
+
+If OSPF is not congigured correctly:
+
+* Routers will not form neighbour relationships
+* No routers will be exchanged
+* Communication between networks will fail
+
+## Troubleshooting
+
+* Verified OSPF config using "show ip route"
+* Confirmed routes marked "O"
+* Checked interface status using "show ip interface brief"
+* Ensure correct wildcard masks were used
+* Verified both routers are in the same OSPF area 
+
+## Key Learning
+
+OSPF eliminates the need for manual route configuration by allowing routers to dynamically learn and update routes.
+
+This makes networks more scalable and adaptable compared to static routing.
+ 
+## Challenges Faced
+
+* Troubleshooting when routes did not appear in the routing table
+
+## what i learned
+
+* Verfication commands are essential to confirm correct configurationS
