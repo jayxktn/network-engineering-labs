@@ -1,0 +1,44 @@
+! Small Company Network - Switch Configuration
+
+enable
+configure terminal
+
+! =========================
+! VLAN CREATION
+! =========================
+
+vlan 10
+name ADMIN
+
+vlan 20
+name SALES
+
+vlan 30
+name IT
+
+! =========================
+! ACCESS PORT ASSIGNMENT
+! =========================
+
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+
+interface fa0/2
+switchport mode access
+switchport access vlan 20
+
+interface fa0/3
+switchport mode access
+switchport access vlan 30
+
+! =========================
+! TRUNK LINK TO ROUTER
+! =========================
+
+interface fa0/24
+switchport mode trunk
+no shutdown
+
+end
+write memory
